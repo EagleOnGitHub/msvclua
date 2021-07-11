@@ -10,9 +10,9 @@ link /DLL /IMPLIB:bin\lua.lib /OUT:bin\lua.dll *.obj
 link /OUT:bin\lua.exe lua.o bin\lua.lib
 lib /OUT:bin\lua-static.lib *.obj
 link /OUT:bin\luac.exe luac.o bin\lua-static.lib
-move lua.h bin\lua.h
-move lua.hpp bin\lua.hpp
-move lua.c bin\lua.c
-move lauxlib.h bin\lauxlib.h
-move lauxlib.c bin\lauxlib.c
-move lualib.h bin\lualib.h
+copy lua.h bin\lua.h
+copy lua.hpp bin\lua.hpp
+copy lua.c bin\lua.c
+copy lauxlib.h bin\lauxlib.h
+copy lauxlib.c bin\lauxlib.c
+copy lualib.h bin\lualib.h
