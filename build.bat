@@ -16,3 +16,4 @@ copy lua.c bin\lua.c
 copy lauxlib.h bin\lauxlib.h
 copy lauxlib.c bin\lauxlib.c
 copy lualib.h bin\lualib.h
+copy luaconf.h bin\luaconf.h
